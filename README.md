@@ -22,7 +22,7 @@ In Keychain access export your certificate as a p12. Then run the following comm
 
     openssl pkcs12 -in cert.p12 -out cert.pem -nodes -clcerts
 
-The store the PEM data in your database or in a file.
+Then store the PEM data in your database or in a file.
 
 Example usage
 -------------
